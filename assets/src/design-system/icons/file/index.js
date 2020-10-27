@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+export { ReactComponent as Upload } from './upload.svg';

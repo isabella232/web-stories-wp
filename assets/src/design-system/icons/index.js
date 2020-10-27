@@ -14,6 +14,15 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+export * from './action';
+export * from './alert';
+export * from './av';
+export * from './content';
+export * from './dashboard';
+export * from './editor';
+export * from './file';
+export * from './navigation';
+export * from './social';

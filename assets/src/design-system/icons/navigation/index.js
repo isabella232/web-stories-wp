@@ -14,6 +14,13 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+export { ReactComponent as Arrow } from './arrow.svg';
+export { ReactComponent as ArrowAlt } from './arrowAlt.svg';
+export { ReactComponent as Chevron } from './chevron.svg';
+export { ReactComponent as Close } from './close.svg';
+export { ReactComponent as CloseAlt } from './closeAlt.svg';
+export { ReactComponent as More } from './more.svg';
+export { ReactComponent as MoreFilled } from './moreFilled.svg';

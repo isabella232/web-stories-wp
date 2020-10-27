@@ -14,6 +14,13 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+
+export { ReactComponent as ExploreTemplatesActive } from './exploreTemplatesActive.svg';
+export { ReactComponent as ExploreTemplatesNormal } from './exploreTemplatesNormal.svg';
+export { ReactComponent as SavedTemplatesActive } from './savedTemplatesActive.svg';
+export { ReactComponent as SavedTemplatesNormal } from './savedTemplatesNormal.svg';
+export { ReactComponent as StoriesActive } from './storiesActive.svg';
+export { ReactComponent as StoriesNormal } from './storiesNormal.svg';

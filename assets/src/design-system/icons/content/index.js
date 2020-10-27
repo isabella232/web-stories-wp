@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+export { ReactComponent as Duplicate } from './duplicate.svg';
+export { ReactComponent as Flip } from './flip.svg';
+export { ReactComponent as Redo } from './redo.svg';
+export { ReactComponent as Rotate } from './rotate.svg';
+export { ReactComponent as Undo } from './undo.svg';

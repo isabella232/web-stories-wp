@@ -14,6 +14,13 @@
  * limitations under the License.
  */
 
-export * as Icons from './icons';
-export * from './theme';
-export * from './components';
+/**
+ * Internal dependencies
+ */
+
+export { ReactComponent as Animation } from './animation.svg';
+export { ReactComponent as Play } from './play.svg';
+export { ReactComponent as PlayAnimation } from './playAnimation.svg';
+export { ReactComponent as StopAnimation } from './stopAnimation.svg';
+export { ReactComponent as Timeline } from './timeline.svg';
+export { ReactComponent as Video } from './video.svg';
